@@ -213,7 +213,6 @@ label_list_LABR_B_U = [0, 1]
 data_LABR_B_U = Dataset(
     "LABR-UN-Binary", train_LABR_B_U, test_LABR_B_U, label_list_LABR_B_U
 )
-# all_datasets.append(data_LABR_B_U)
 
 #%%
 for data in tqdm(all_datasets):
